@@ -8,28 +8,28 @@ import java.util.TreeSet;
 public class Program {
     public static void main(String[] args) throws Exception {
 
-        Set<String> set = new HashSet<>();
-        //Set<String> set = new TreeSet<>();
+        //Set<String> set = new HashSet<>();
+        Set<String> set = new TreeSet<>();
         //Set<String> set = new LinkedHashSet<>();
 
-        set.add("Tv");
-        set.add("Notebook");
-        set.add("Tablet");
-        set.add("Radio");
-        set.add("Pc Gamer");
-        set.add("Monitor");
-        set.add("Mouse");
-        set.add("Keyboard");
-        set.add("Mousepad");
-        set.add("SoundBar");
-        set.add("Projetor");
-        set.add("Tapete");
-        set.add("Fio Dental");
-        set.add("TopGeo");
-        set.add("Vale");
-        set.add("Java");
-        set.add("Microfone");
-        set.add("Headset");
+        set.add("C");
+        set.add("K");
+        set.add("A");
+        set.add("W");
+        set.add("Y");
+        set.add("B");
+        set.add("D");
+        set.add("S");
+        set.add("T");
+        set.add("E");
+        set.add("P");
+        set.add("I");
+        set.add("L");
+        set.add("Q");
+        set.add("N");
+        set.add("M");
+        set.add("V");
+        set.add("U");
 
         //set.remove("Keyboard");
 
