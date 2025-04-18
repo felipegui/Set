@@ -29,9 +29,10 @@ public class Program {
         set.add("N");
         set.add("M");
         set.add("V");
-        set.add("U");
+        set.add("Uuu");
 
-        set.remove("C");
+        //set.remove("C");
+        set.removeIf(x -> x.length() >= 3);
 
         for (String p : set) {
             System.out.println(p);
