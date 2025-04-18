@@ -32,7 +32,8 @@ public class Program {
         set.add("Uuu");
 
         //set.remove("C");
-        set.removeIf(x -> x.length() >= 3);
+        //set.removeIf(x -> x.length() >= 3);
+        set.removeIf(x -> x.charAt(0) == 'C');
 
         for (String p : set) {
             System.out.println(p);
