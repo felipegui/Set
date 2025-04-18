@@ -9,8 +9,8 @@ public class Program {
     public static void main(String[] args) throws Exception {
 
         //Set<String> set = new HashSet<>();
-        Set<String> set = new TreeSet<>();
-        //Set<String> set = new LinkedHashSet<>();
+        //Set<String> set = new TreeSet<>();
+        Set<String> set = new LinkedHashSet<>();
 
         set.add("C");
         set.add("K");
