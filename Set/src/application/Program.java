@@ -31,7 +31,7 @@ public class Program {
         set.add("V");
         set.add("U");
 
-        //set.remove("Keyboard");
+        set.remove("C");
 
         for (String p : set) {
             System.out.println(p);
